@@ -87,11 +87,22 @@ h4 {
   font-size: 16px;
 }
 
-#Footer {
+#Footer p {
   margin-top: 15%;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 #Footer a {
   color: yellow;
+}
+
+.body {
+  margin-right: 55%;
+  margin-bottom: 5%;
+}
+
+@media screen and (max-width: 500px) {
+  .body {
+    margin: 0%;
+  }
 }
