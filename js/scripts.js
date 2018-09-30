@@ -69,11 +69,11 @@ $(document).ready(function() {
     if ((currentTurn.total + currentTurn.player.score) >= 100) {
       if (currentTurn.player == playerOne) {
         $('#playerOne-score').text(currentTurn.total + currentTurn.player.score);
-        alert("Congratulations, Player One!! You win!!!");
+        alert("Congratulations, Player 1!! You win!!!");
       }
       else if (currentTurn.player == playerTwo) {
         $('#playerTwo-score').text(currentTurn.total + currentTurn.player.score)
-        alert("Congratulations, Player Two! You win!!!");
+        alert("Congratulations, Player 2! You win!!!");
       };
     };
   });
