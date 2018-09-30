@@ -12,20 +12,13 @@ body {
 
 }
 
-#intro {
+h2 {
   color: gold;
   text-align:center;
   text-shadow: 20px;
   font-size: 65px;
   margin-top: 15%;
-  margin-bottom: 15%;
-}
-
-h2 {
-  color: red;
-  text-align: center;
-  font-size: 42px;
-  margin-top: 10%;
+  margin-bottom: 15%;  
 }
 
 p {
@@ -65,11 +58,11 @@ h4 {
 }
 
 #current-roll {
-  color: red;
+  color: green;
 }
 
 #cumulative-total{
-  color: red;
+  color: green;
 }
 
 #dice-roll button {
@@ -99,16 +92,15 @@ h4 {
 }
 
 #Footer a {
-  color: yellow;
-}
-
-.ui-menu {
-  width: 150px;
+  color: gold;
 }
 
 .body {
   margin-right: 55%;
   margin-bottom: 5%;
+  border-radius: 2%;
+  padding: inherit;
+  float: right;
 }
 
 @media screen and (max-width: 500px) {
