@@ -1,0 +1,30 @@
+body {
+  background-image: url(../images/reddice.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 10px;
+
+}
+
+#intro {
+  color:  white;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+#players {
+  color: white;
+}
+
+#scores h3 {
+  color: white
+}
+
+.container {
+  float: left;
+}
