@@ -1,3 +1,5 @@
+//This is the business logic
+
 function Player(userName) {
   this.userName = userName;
   this.score = 0;
@@ -42,6 +44,9 @@ Turn.prototype.endTurn = function(playerOne, playerTwo) {
     $("#playerOne").toggleClass("active");
   };
 };
+
+
+//This is the user interface:
 
 $(document).ready(function() {
   var playerOne = new Player("Player One");
