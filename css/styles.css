@@ -18,7 +18,7 @@ h2 {
   text-shadow: 20px;
   font-size: 65px;
   margin-top: 15%;
-  margin-bottom: 15%;
+  margin-bottom: 8%;
 }
 
 p {
@@ -120,7 +120,7 @@ h4 {
 
 @media screen and (max-width: 600px) {
   .body {
+    background-image: linear-gradient(black, white);
     margin: 5%;
-    background-color: black;
-  }
+    }
 }
