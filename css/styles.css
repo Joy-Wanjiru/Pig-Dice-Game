@@ -18,7 +18,7 @@ h2 {
   text-shadow: 20px;
   font-size: 65px;
   margin-top: 15%;
-  margin-bottom: 15%;  
+  margin-bottom: 15%;
 }
 
 p {
@@ -86,13 +86,28 @@ h4 {
   font-size: 16px;
 }
 
-#Footer p {
-  margin-top: 15%;
+#footer p {
+  margin-top: 30%;
   font-size: 22px;
 }
 
-#Footer a {
+#footer a {
   color: gold;
+}
+
+/* #scores {
+  border: 4px;
+  border-color: white;
+
+} */
+
+#footer {
+  background-image: linear-gradient(black, white);
+  width: 100%;
+  height: 70px;
+  /* background-size: cover; */
+  text-align: center;
+  border-radius: 15px;
 }
 
 .body {
@@ -103,7 +118,7 @@ h4 {
   float: right;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .body {
     margin: 5%;
     background-color: black;
